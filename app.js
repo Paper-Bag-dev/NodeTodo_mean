@@ -31,8 +31,5 @@ app.get("/", (req, res) => {
   res.send("Nice working");
 });
 
-console.log(process.env.FRONTEND_URL);
-console.log(process.env.MONGO_URI);
-
 // Using Error Middleware
 app.use(errorMiddleware);
